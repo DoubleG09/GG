@@ -1,0 +1,12 @@
+.box{
+    background-color: WHITE;
+     position: absolute;
+     color: BLACK;
+     display: flex;
+     border-radius: 10px;}
+.top-left {
+    top: 20px;
+    right: 20px;
+    width: 350px;
+    height: 100px;
+}

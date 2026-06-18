@@ -3,10 +3,25 @@
      position: absolute;
      color: BLACK;
      display: flex;
+     align-items: center;
+     justify-content: center;
      border-radius: 10px;}
-.top-left {
+.top-left{
     top: 20px;
-    right: 20px;
+    right: 200px;
     width: 350px;
-    height: 100px;
+    height: 200px;
+}
+.top-right{
+    top: 20px;
+    left: 100px;
+    width: 250px;
+    height: 250px;
+}
+.center-left{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 100%;
 }
